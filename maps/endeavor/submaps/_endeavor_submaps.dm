@@ -35,10 +35,13 @@
 
 
 /// Away Missions
+
+/* DISABLED FOR NOW
 #include "odin5a-desert/odin5a.dm"
 
 #include "odin5a-desert/odin5a-beach.dmm"//Things are weird if they aren't compiled with the rest of the maps. Look into this later
 #include "odin5a-desert/odin5a-cave.dmm"
+*/
 
 //Closest moon to the Odin 5 gas giant. Desert world torn by tidal forces and covered in raging oceans, widespread deserts, and deadly volcanoes
 /*don't double load
@@ -299,7 +302,9 @@
 	mobs_to_pick_from = list(
 		/mob/living/simple_mob/vore/aggressive/corrupthound = 1,
 		/mob/living/simple_mob/vore/aggressive/rat = 1,
+		/*
 		/mob/living/simple_mob/animal/space/mimic = 1
+		*/
 	)
 
 /obj/endeavor_away_spawner/underdark_boss

@@ -1,3 +1,4 @@
+/*
 /datum/shuttle/ferry/emergency/escape
 	name = "Escape"
 	location = 1 // At offsite
@@ -158,3 +159,4 @@
 		/datum/shuttle_destination/excursion/odin5_orbit = 45 SECONDS,
 		/datum/shuttle_destination/excursion/outside_endeavor = 45 SECONDS
 	)
+*/

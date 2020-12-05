@@ -208,12 +208,12 @@
 /obj/structure/closet/secure_closet/guncabinet/excursion
 	name = "expedition weaponry cabinet"
 	req_one_access = list(access_explorer,access_armory)
-
+/*
 /obj/structure/closet/secure_closet/guncabinet/excursion/New()
 	..()
 	for(var/i = 1 to 3)
 		new /obj/item/weapon/gun/energy/frontier/locked(src)
-
+*/
 //Air scrubbers for shuttles, always on
 /obj/machinery/portable_atmospherics/powered/scrubber/huge/stationary/alwayson
 	name = "\improper Air Scrubber"
